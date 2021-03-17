@@ -62,7 +62,7 @@ public class TryRestAssured {
         int totalPrice = 777;
 
         //RequestUser user = RequestUser.builder()
-        RequestUser user = new RequestUser.Builder()
+        RequestUser user = new RequestUser.Builder() //I use this statement at least several times. My I move it to the class?
                 .firstname(firstname)
                 .lastname(lastname)
                 .additionalneeds("Breakfast")
