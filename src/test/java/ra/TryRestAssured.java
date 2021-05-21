@@ -32,7 +32,7 @@ public class TryRestAssured {
     public void setup() {
         RestAssured.baseURI = "https://restful-booker.herokuapp.com";
         RestAssured.port = 443;
-//        RestAssured.authentication = preemptive().basic("username", "password");
+//      RestAssured.authentication = preemptive().basic("username", "password");
     }
 
     @Test
